@@ -1,105 +1,154 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Blog</title>
-        <style>
-            body {
-                background-color:rgb(198,224,234);
-                font-family: sans-serif;
-            }
-            h1{
-                text-align:center;
-            }
-            p {
-                color:rgb(181,131,94);
-                line-height:1.5em;
-                font-size:15px;
-            }
-            .heading{
-                color:rgb(181,131,140);
-                font-family:monospace;
-            }
-            .date {
-                color: rgb(0,80,155);
-            }
-            #future-plans {
-                font-weight:bold;
-                font-style:italic;
-            } 
-        </style>
-            </head>
-    <body>
-        
-        <h1 class="heading">Matej's </h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matej's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: rgb(175, 171, 204);
+        }
 
-        <h3 class="heading">Contents</h3>
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+
+
+        section {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+
+        h2 {
+            color: rgb(74, 67, 128);
+        }
+
+
+        ul {
+            list-style-type: square;
+        }
+
+
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Matej's portfolio</h1>
+        <p><i>Hello, I'm Matěj Krůta. This is my portfolio.</i></p>
+    </header>
+    
+    <nav>
         <ul>
-            <a href="#first"><li>Introduction</li></a>
-            <a href="#second"><li>skills</li></a>
-            <a href="#third"><li>likes</li></a>
-            <a href="#fourth"><li>dislikes</li></a>
-            <a href="#fifth"><li>career</li></a>
-            <a href="#sixth"><li>goals</li></a>
-            <a href="#seventh"><li>achievements</li></a>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#likes">Likes</a></li>
+            <li><a href="#dislikes">Dislikes</a></li>
+            <li><a href="#goals">Career Goals</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
-        
-        <h2 id="first" class="heading">Introduction</h2>
+    </nav>
+
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome, I am Matěj Krůta and this is my portfolio. Here you can read all about me.</p>
+    </section>
+
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I have a lot of usefull and unique skills.</p>
+        <li>I can drive a car.</li>
+            <li>I can fly a light aircraft.</li>
+        <p>I can also speak many languages.</p>
+        <ul>
+            
+            <li>Czech </li>
+            <li>English </li>
+            <li>Chinese </li>
+            <li>Slovak </li>
+            <li>Polish </li>
+        </ul>
+    </section>
+
+
+    <section id="likes">
+        <h2>Likes</h2>
+        <ul>
+            <li>I love traveling.</li>
+            <li>I love flying.</li>
+            <li><a href="#cattt">Guinea pigs</a></li>
+            <li>Cats</li>
+        </ul>
+    </section>
+    <section id="cattt">
+    
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cat_with_guinea_pigs.jpg/600px-Cat_with_guinea_pigs.jpg" width = "400" >
     
         
-        <p>Hello everyone I am Matěj Krůta and this is my website. 
-        </p>
-        
-        <h2 id="second" class="heading">Skills</h2>
-        <p>
-        I have a lot of usefull skills.
-    
-        <li>I can fly a jet
-        </li>
-        
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg/600px-2010-07-08_BD700_Tyrolean_OE-IGS_EDDF_03.jpg" width="230">
-        
-        
-        <li>I can drive a car
-        </li>
-        <li>I can fly a helicopter
-        </li>
-        <li>I know how to repair computers
-        </li>
-        <li>I know how to repair iphones and all other apple devices
-        </li>
-        <li>I can speak 5 languages good and I am learning more. I speak Czech, Slovak, Polish, English, Chinese and I'm learning German and I know a little Arabic.
-        </li>
-        
-        </p>
-        
-        <h2 id="third" class="heading">Likes</h2>
-        
-        
-        <p>skill </p>
-        
-        
-        
-        <h2 id="fourth" class="heading">Dislikes</h2>
-        
-        
-        <p>likes </p>
-        
-        <h2 id="fifth" class="heading">Career</h2>
-        
-        
-        <p> dislikes </p>
-        
-                <h2 id="sixth" class="heading">Goals</h2>
-        
-        
-        <p> dislikes </p>
-        
-        
-                <h2 id="seventh" class="heading">Achievements</h2>
-        
-        
-        <p> dislikes </p>
-        
-    </body>
+    </section>
+    <section id="dislikes">
+        <h2>Dislikes</h2>
+        <ul>
+            <li>Ugly clothes</li>
+            <li>Diet Coke</li>
+            <li>Mushrooms</li>
+            <li>Fish</li>
+        </ul>
+    </section>
+
+
+    <section id="career-goals">
+        <h2>Career Goals</h2>
+        <p>I want to be a billionaire.</p>
+    </section>
+
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>1. I studied at Educanet Prague.</li>
+            <li>2. Studied at Harvard.</li>
+            <li>3. Got a C2 in English.</li>
+            <li>4. Got a C1 in Chinese.</li>
+            <li>5. Learned how to fly a Jet airplane.</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Me and my friends just created a yearbook. you can take a look at it <a href="https://sites.google.com/educanet.cz/g1b-yearbook">here</a>.</p>
+    </section>
+</body>
 </html>
